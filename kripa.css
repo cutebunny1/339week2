@@ -1,0 +1,36 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+  
+ }
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+ }
+ 
+ /* navigation list, images, para */
+
+ nav li{
+    background-color: aqua;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 05px;
+    border-radius: 30px;
+ }
+
+ img {
+    padding: 12px;
+    width: 24%;
+    border-style: dashed; /* does this do anything?? */
+    margin: none;
+    border: 1px dashed black
+  }
